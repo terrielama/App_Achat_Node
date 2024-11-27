@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2
+{
+    margin-top: 0px;
+}
+
+#panier,
+#produits {
+    margin: 5px;
+    padding: 35px;
+    border: 1px solid #000000;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px; 
+
+}
+
+input {
+    margin: 5px 0;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 5px; 
+
+}
+
+
+button {
+    margin:15px 35px 10px 35px;
+    padding: 12px; /* Ajoute du padding au bouton */
+  /*  margin: 5px 0;  Ajoute un espace vertical entre les boutons */
+    font-size: 14px; /* Ajuste la taille de la police */
+    background-color: #1acf20; /* Couleur de fond verte */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; 
+    cursor: pointer; /* Change le curseur au survol */
+}
+
+button:hover {
+    background-color: #21b829; /* Couleur au survol */
+}
+
+#liste-produits {
+    list-style-type: none; /* Pas de puces */
+    padding: 0; /* Pas de padding */
+    margin: 10px 0; /* Ajoute un peu d'espace au-dessus et en dessous de la liste */
+}
+
+#liste-produits li {
+    display: flex; /* Flexbox pour aligner les éléments */
+    justify-content: space-around;    align-items: center; /* Aligne les éléments verticalement */
+    margin: 5px 0; /* Espace entre les produits */
+    flex-wrap: wrap
+}
+
+#liste-produits li button {
+    margin-top: 20px; 
+    background-color: rgb(229, 31, 31);
+ 
+}
+
+#liste-produits li button:hover {
+    background-color: rgb(192, 7, 7);
+
+}
+
+#vider
+{
+    margin:10px 35px 10px 35px;
+    padding: 12px;
+    background-color: rgb(229, 31, 31);
+}
+
+#vider:hover {
+    background-color: rgb(192, 7, 7);
+}

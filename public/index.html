@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier d'Achat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Panier d'Achat</h1>
+    <div id="produits">
+        <h2>Ajouter un produit</h2>
+        <input type="text" id="nom" placeholder="Nom du produit">
+        <input type="number" id="prix" placeholder="Prix">
+        <input type="number" id="quantite" placeholder="Quantité">
+        <button onclick="ajouterProduit()">Ajouter</button>
+    </div>
+
+    <div id="panier">
+        <h2>Mon Panier</h2>
+        <ul id="liste-produits"></ul>
+        <button onclick="afficherTotal()">Total des courses</button>
+        <p id="total"></p>        
+        <button id="vider" onclick="viderPanier()">Vider le panier</button>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
