@@ -9,6 +9,7 @@ Un bouton "Total des courses" permet d'afficher le montant total des produits da
 Un autre bouton permet de vider l'intégralité du panier.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
+Instaler les modules node
 
 Instructions pour configurer un projet Node.js avec Express et Nodemon :
 
